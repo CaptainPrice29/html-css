@@ -4,6 +4,7 @@
 *.so
 
 # Folders
+experiment/
 _obj
 _test
 
