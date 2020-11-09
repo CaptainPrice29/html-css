@@ -1,0 +1,14 @@
+.default {
+  border: 5px solid #991;
+
+}
+
+.inline-block {
+  border: 5px solid #991;
+  display: inline-block;
+
+}
+.inline {
+  border: 5px solid #991;
+  display: inline;
+}
