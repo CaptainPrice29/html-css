@@ -1,0 +1,25 @@
+p {
+  border: 5px ;
+  border-style: dashed;
+  border-color: black;
+  font-size: 50px;
+  text-align:center;
+  cursor: crosshair;
+
+}
+/* SYNTAX pseudo class-
+ selector:pseudo-class {
+  property: value; */
+}
+a:link {
+  color: red;
+}
+a:visited{
+  color: violet;
+}
+a:hover{
+  color: green;
+}
+a:active{
+  color: yellow;
+}
