@@ -1,0 +1,23 @@
+label{
+  margin-top: 12px;
+  text-align:center;
+  display: block;
+  font-size: 5rem;
+}
+input{
+
+  font-size: 2rem;
+  height: 60px;
+  width: 300px;
+  border: 1px solid green;
+  text-align:left;
+}
+[type=submit]{
+  text-align: center;
+}
+[type=submit]:hover{
+  color: green;
+}
+[type=submit]:active{
+  color: yellow;
+}
