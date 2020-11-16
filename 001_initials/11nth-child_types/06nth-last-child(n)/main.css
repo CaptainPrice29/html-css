@@ -1,0 +1,3 @@
+li:nth-last-child(2){ /*2 means second element from bottom*/
+  color: red;
+  }

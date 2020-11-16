@@ -1,0 +1,3 @@
+li:only-child{ /*li which is the only child will be selected*/
+  color: red;
+  }
