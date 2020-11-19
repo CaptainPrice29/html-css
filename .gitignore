@@ -57,3 +57,4 @@ builds/**/images/*
 !.elasticbeanstalk/*.global.yml
 
 razahtmlcss.txt
+.vscode
