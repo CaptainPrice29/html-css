@@ -1,0 +1,33 @@
+div{
+    text-align: center;
+    height: 60px;
+    width: 80px;
+    border: 3px solid green;
+    margin: 10px;
+    
+}
+.a{
+    display: flex;
+    border: 2px dashed yellowgreen;
+    height: 200px;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    
+}
+.b{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    border: 2px dashed red;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}

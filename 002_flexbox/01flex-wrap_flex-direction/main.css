@@ -1,0 +1,31 @@
+div{
+    text-align: center;
+    height: 90px;
+    width: 140px;
+    border: 3px solid green;
+    margin: 10px;
+}
+section{
+    display: flex;
+}
+.a{
+    flex-wrap: nowrap;
+}
+.b{
+    flex-wrap: wrap;
+}
+.c{
+    flex-wrap: wrap-reverse;
+}
+.d{
+    flex-direction: row;
+}
+.e{
+    flex-direction: row-reverse;
+}
+.f{
+    flex-direction: column;
+}
+.g{
+    flex-direction: column-reverse;
+}
