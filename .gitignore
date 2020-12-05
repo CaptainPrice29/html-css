@@ -58,3 +58,4 @@ builds/**/images/*
 
 razahtmlcss.txt
 .vscode
+.directory
