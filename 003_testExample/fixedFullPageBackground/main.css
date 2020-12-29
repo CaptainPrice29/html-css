@@ -1,0 +1,38 @@
+html,body,header,nav,a,i,div,section{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#background{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background-photo.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   
+}
+section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+section div{
+    text-align: center;
+    color: bisque;
+}
+button{
+    background-color: inherit;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    color: gold;
+}
