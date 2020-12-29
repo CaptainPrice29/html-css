@@ -1,0 +1,44 @@
+html,body,header,nav,a,i,div,section{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#background{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+section{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background-photo.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+section div{
+    text-align: center;
+    color: bisque;
+}
+button{
+    border: 1px solid greenyellow;
+    padding: .8rem 1.3rem;
+    background-color: inherit;
+    color: inherit;
+    font-weight: 800;
+    border-radius: 30px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
