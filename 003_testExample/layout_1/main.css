@@ -1,0 +1,58 @@
+html,body,header,div,nav,ul,li,a{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.rotate{
+    position: fixed;
+    top: 980px;
+    left: -980px;
+    transform: rotate(-90deg);
+    background-color: darkorange;
+    width: 2000px;
+    height: 40px;
+    text-align: right;
+    background-attachment: scroll;
+
+}
+header{
+    height: 50px;
+    width: 100vw;
+    background-color: aqua;
+    
+}
+header div{
+    position: relative;
+    left: 300px;
+    height: 140px;
+    width: 100px;
+    border: 2px solid wheat;
+    border-top: none;
+    background-color: yellowgreen;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+    background-color: coral;
+
+}
+nav div{
+    width: 100%;
+}
+nav div ul{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 500px;
+}
+nav div ul li{
+    margin: 0 8px;
+
+}
+
+nav div ul li a{
+    text-decoration: none;
+}
