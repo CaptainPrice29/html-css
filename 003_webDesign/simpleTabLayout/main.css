@@ -1,0 +1,38 @@
+body,div{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.outer{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  height: 70px;
+  width: 400px;
+  box-shadow: 0 3px 3px gray;
+}
+.tab{
+  flex-grow: 1;
+  cursor: pointer;
+}
+.up{
+  display: flex;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+}
+.down{
+  height: 5%;
+ }
+.tab:hover .down{
+  background-color: green;
+}
+.tab:hover .up{
+  background-color: rgb(192, 188, 188);
+}
+
+
