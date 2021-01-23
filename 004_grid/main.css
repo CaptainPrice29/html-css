@@ -1,0 +1,132 @@
+html,body,div{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  color: tomato;
+}
+nav{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(54, 54, 54);
+}
+nav a{
+  height: 30px;
+  width: 90px;
+  transition-duration: 0.5s;
+  text-align: center;
+  padding: 10px 5px;
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  background-color: wheat;
+  color: black;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+  color: brown;
+  padding-top: 60px;
+}
+/* layout 1 */
+.gridcontainer1{
+  display: grid;
+  background-color: green;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px;
+  padding: 25px;
+}
+.gridcontainer1 > div{
+  text-align: center;
+  font-size: 35px;
+  padding: 30px 0;
+  background-color: greenyellow;
+}
+/* layout 2 */
+.gridcontainer2{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: cornflowerblue;
+  grid-gap: 25px;
+  padding: 25px;
+}
+.gridcontainer2 > div{
+  text-align: center;
+  font-size: 35px;
+  padding: 30px 0;
+  background-color: cadetblue;
+}
+.grid21{
+  grid-row: 1/3;
+}
+.grid24{
+  grid-row: 1/3;
+  grid-column: 4/5;
+}
+/* layout 3 */
+.gridcontainer3{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgb(202, 35, 35);
+  grid-gap: 25px;
+  padding: 25px;
+}
+.gridcontainer3 > div{
+  text-align: center;
+  font-size: 35px;
+  padding: 30px 0;
+  background-color:  rgb(143, 84, 84);
+}
+.grid31{
+  grid-area: 1/1/3/2;
+}
+.grid34{
+  grid-area: 1/4/3/5;
+}
+.grid35{
+  grid-column:2/4 ;
+}
+.grid36{
+  grid-column: 1/5;
+}
+/* Layout 4 */
+.grid41{
+  grid-area: grid1;
+}
+.grid42{
+  grid-area: grid2;
+}
+.grid43{
+  grid-area: grid3;
+}
+.grid44{
+  grid-area: grid4;
+}
+.grid45{
+  grid-area: grid5;
+}
+.grid46{
+  grid-area: grid6;
+}
+.gridcontainer4{
+  display: grid;
+  grid-template-areas:  'grid1 grid2 grid3'
+                        'grid1 grid4 grid4'
+                        'grid1 grid5 grid5'
+                        'grid6 grid6 grid6';
+  background-color: rgb(11, 172, 236);
+  grid-gap: 25px;
+  padding: 25px;
+}
+.gridcontainer4 > div{
+  text-align: center;
+  font-size: 35px;
+  padding: 30px 0;
+  background-color:  rgb(68, 144, 163);
+}
