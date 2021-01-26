@@ -1,0 +1,57 @@
+html,body,div,h1{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: dimgrey;
+}
+.atf{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-size: 4rem;
+  text-align: center;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  border-top:1px solid grey;
+  margin: 0 40px;
+  font-size: 2rem;
+  padding-top: 10px;
+}
+.f{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 20px;
+}
+#load{
+  height: 30px;
+  fill: dimgrey;
+  margin-top: 8px;
+  margin-right: 7px;
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+button{
+  color: mediumturquoise;
+  background-color: white;
+  border: none;
+  font-size: inherit;
+  padding: 10px;
+  margin-right: 1px;
+}
+@keyframes rotate{
+  100% {transform: rotate(360deg);}
+}
+button:hover{
+  background-color: turquoise;
+  color: white;
+  cursor: pointer;
+}
